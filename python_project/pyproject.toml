@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-project"
+version = "0.1.0"
+description = ""
+authors = ["minwook <minkj1992@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+grpcio = "^1.54.0"
+grpcio-tools = "^1.54.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
